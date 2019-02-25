@@ -3,12 +3,16 @@
 ### Completed
 Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Program from the University of Waterloo
 
+SCS 2900 Pharmacology Principles and Clinical Applications, University of Toronto, Department of Pharmacology and Toxicology
+
 ### In progress
 Data Science Certificate, University of Guelph
 
-SCS 2900 Pharmacology Principles and Clinical Applications, University of Toronto, Department of Pharmacology and Toxicology
 ## Currently
 Junior Software Developer at OICR
+
+## Publications
+[Google Scholar](https://scholar.google.ca/citations?user=HeIP2F0AAAAJ&hl=en)
 
 ## Interests
 - Bioinformatics
