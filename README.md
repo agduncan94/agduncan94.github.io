@@ -12,7 +12,8 @@ Data Science Certificate, University of Guelph
 Junior Software Developer at OICR
 
 ## Publications
-[Google Scholar](https://scholar.google.ca/citations?user=HeIP2F0AAAAJ&hl=en)
+* [Google Scholar](https://scholar.google.ca/citations?user=HeIP2F0AAAAJ&hl=en)
+* [GitHub](https://github.com/agduncan94)
 
 ## Interests
 - Bioinformatics
