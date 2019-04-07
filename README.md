@@ -8,6 +8,8 @@ SCS 2900 Pharmacology Principles and Clinical Applications, University of Toront
 ### In progress
 Data Science Certificate, University of Guelph
 
+Mathematics for Machine Learning, Imperial College London (Coursera)
+
 ## Currently
 Junior Software Developer at OICR
 
