@@ -11,7 +11,7 @@ Data Science Certificate, University of Guelph
 Mathematics for Machine Learning, Imperial College London (Coursera)
 
 ## Currently
-Junior Software Developer at OICR
+Software Developer at OICR
 
 ## Publications
 * [Google Scholar](https://scholar.google.ca/citations?user=HeIP2F0AAAAJ&hl=en)
