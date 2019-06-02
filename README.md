@@ -5,10 +5,10 @@ Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Progra
 
 SCS 2900 Pharmacology Principles and Clinical Applications, University of Toronto, Department of Pharmacology and Toxicology
 
+Mathematics for Machine Learning, Imperial College London (Coursera)
+
 ### In progress
 Data Science Certificate, University of Guelph
-
-Mathematics for Machine Learning, Imperial College London (Coursera)
 
 ## Currently
 Software Developer at OICR
