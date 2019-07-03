@@ -3,12 +3,22 @@
 ### Completed
 Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Program from the University of Waterloo
 
-SCS 2900 Pharmacology Principles and Clinical Applications, University of Toronto, Department of Pharmacology and Toxicology
+Fundamentals of Biomedical Science I Certificate, University of Toronto
+* SCS 2900 Pharmacology Principles and Clinical Applications, Department of Pharmacology and Toxicology
+
+Data Science Certificate, University of Guelph
+* 8020001 Introduction to Data Science
+* 8020002 Data Mining and Machine Learning
 
 Mathematics for Machine Learning, Imperial College London (Coursera)
 
 ### In progress
 Data Science Certificate, University of Guelph
+* 8020003 Big Data Analytics
+
+Fundamentals of Biomedical Science 1 Certificate
+* SCS 2472 Biochemistry with a Medical Perspective
+* SCS 2159 Basic Human Physiology
 
 ## Currently
 Software Developer at OICR
