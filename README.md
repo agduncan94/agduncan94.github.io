@@ -3,10 +3,10 @@
 ### Completed
 Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Program from the University of Waterloo
 
-Fundamentals of Biomedical Science I Certificate, University of Toronto
+Fundamentals of Biomedical Science I Certificate, University of Toronto (partially completed)
 * SCS 2900 Pharmacology Principles and Clinical Applications, Department of Pharmacology and Toxicology
 
-Data Science Certificate, University of Guelph
+Data Science Certificate, University of Guelph (partially completed)
 * 8020001 Introduction to Data Science
 * 8020002 Data Mining and Machine Learning
 
