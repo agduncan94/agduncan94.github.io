@@ -16,7 +16,7 @@ Mathematics for Machine Learning, Imperial College London (Coursera)
 Data Science Certificate, University of Guelph
 * 8020003 Big Data Analytics
 
-Fundamentals of Biomedical Science 1 Certificate
+Fundamentals of Biomedical Science 1 Certificate, University of Toronto
 * SCS 2472 Biochemistry with a Medical Perspective
 * SCS 2159 Basic Human Physiology
 
