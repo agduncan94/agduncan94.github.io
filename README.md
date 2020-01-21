@@ -6,16 +6,12 @@ Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Progra
 Fundamentals of Biomedical Science I Certificate, University of Toronto (partially completed)
 * SCS 2900 Pharmacology Principles and Clinical Applications, Department of Pharmacology and Toxicology
 
-Data Science Certificate, University of Guelph (partially completed)
+Data Science Certificate, University of Guelph
 * 8020001 Introduction to Data Science
 * 8020002 Data Mining and Machine Learning
-
-Mathematics for Machine Learning, Imperial College London (Coursera)
-
-### In progress
-Data Science Certificate, University of Guelph
 * 8020003 Big Data Analytics
 
+### In progress
 Fundamentals of Biomedical Science 1 Certificate, University of Toronto
 * SCS 2472 Biochemistry with a Medical Perspective
 * SCS 2159 Basic Human Physiology
@@ -29,8 +25,7 @@ Software Developer at OICR
 
 ## Interests
 - Bioinformatics
-- Scientific Workflows
-- Data Standardization
-- Drug Design
-- Data Analysis
+- Pharmacology
 - Simulations and modeling
+- Regulatory Networks and Pathways
+- Physiology
