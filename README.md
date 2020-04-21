@@ -5,6 +5,7 @@ Bachelor of Computer Science, Bioinformatics Option, Honours, Cooperative Progra
 
 Fundamentals of Biomedical Science I Certificate, University of Toronto (partially completed)
 * SCS 2900 Pharmacology Principles and Clinical Applications, Department of Pharmacology and Toxicology
+* SCS 2159 Basic Human Physiology
 
 Data Science Certificate, University of Guelph
 * 8020001 Introduction to Data Science
@@ -14,7 +15,6 @@ Data Science Certificate, University of Guelph
 ### In progress
 Fundamentals of Biomedical Science 1 Certificate, University of Toronto
 * SCS 2472 Biochemistry with a Medical Perspective
-* SCS 2159 Basic Human Physiology
 
 ## Currently
 Software Developer at OICR
