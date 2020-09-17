@@ -14,7 +14,7 @@ Data Science Certificate, University of Guelph
 * 8020003 Big Data Analytics
 
 ## Currently
-Cell and Systems Biology Master's Student - [Moses Lab](http://www.moseslab.csb.utoronto.ca) and [Mitchell Lab](http://labs.csb.utoronto.ca/mitchell/)
+Cell and Systems Biology Master's Student at the University of Toronto - [Moses Lab](http://www.moseslab.csb.utoronto.ca) and [Mitchell Lab](http://labs.csb.utoronto.ca/mitchell/)
 
 ## Publications
 * [Google Scholar](https://scholar.google.ca/citations?user=HeIP2F0AAAAJ&hl=en)
