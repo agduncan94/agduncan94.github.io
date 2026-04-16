@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publications | Andrew G. Duncan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="bibtex_js.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Bio</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html" class="active">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Publications</h1>
+        <div>
+            <input type="text" class="bibtex_search" id="searchbar" placeholder="Search publications">
+        </div>
+        <div id="bibtex_display"></div>
+
+        <bibtex src="citations.bib" sort="year" order="desc" group-by="year"></bibtex>
+
+        <div class="bibtex_template" style="display:none;">
+            
+            <div class="if author" style="margin-bottom: 20px;">
+            <span class="if title" style="font-weight: bold;">
+               
+            <span class="if preprint" class="preprint"> <span class="preprint">Preprint<span class="preprint-badge">Preprint</span></span></span>
+            <span class="if first_author" class="first_author"> <span class="first_author">first_author<span class="first_author-badge">First Author</span></span></span>
+            <span class="title"></span><br>
+            </span>
+            <span class="author"></span><br>
+            <span class="if journal"><em><span class="journal"></span></em>, </span>
+            <span class="if booktitle"><em><span class="booktitle"></span></em>, </span>
+            <span class="if year"><span class="year"></span></span>
+            <span class="if doi"> | doi:<span class="doi">DOI</span></span>
+            <div class="links" style="margin-top: 5px; font-size: 0.9rem;">
+                <span class="if url">
+                <a class="url" href="" target="_blank" style="color: #3498db; margin-right: 10px;">[Link to article]</a>
+                </span>
+            </div>
+            </div>
+        </div>
+        <div class="bibtex_structure">
+            <div class="group year" extra="DESC number">
+                <h2 class="title"></h2>
+                <div class="templates"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Andrew G. Duncan</p>
+    </footer>
+</body>
+</html>
