@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Duncan | Academic Bio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="bibtex_js.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Bio</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container">
+        <h1>Andrew G. Duncan</h1>
+        <p class="subtitle">PhD Candidate | Cell & Systems Biology | University of Toronto</p>
+    </header>
+
+    <main class="container">
+        <section id="bio">
+            <h2>About Me</h2>
+            <div>
+                <div class="bio-image">
+                    <img class="bio-image"src="assets/headshot.jpeg" alt="Photo of Andrew Duncan">
+                </div>
+                <p>
+                    I am a PhD candidate who investigates how regulatory information is encoded into the genome using a combination of machine learning and evolutionary biology.
+                </p>
+
+                <p>
+                    Currently, I am a member of the Mitchell and Moses labs at the University of Toronto. Before starting my PhD, 
+                    I was a software developer at the Ontario Institute for Cancer Research (OICR). Prior to my work at OICR,
+                    I completed my Bachelor of Computer Science, Honours Bioinformatics at the University of Waterloo.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <div class="contact-links">
+                <a href="mailto:andrewg.duncan@mail.utoronto.ca" class="btn-academic">
+                    <i class="fa-solid fa-envelope"></i> Email
+                </a>
+                <a href="https://scholar.google.com/citations?user=HeIP2F0AAAAJ" target="_blank" class="btn-academic">
+                    <i class="ai ai-google-scholar"></i> Scholar
+                </a>
+                <a href="https://github.com/agduncan94" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://huggingface.co/aduncan94" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-hugging-face"></i> Hugging Face
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-duncan-91702864/" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com/AgduncanB" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-x-twitter"></i> Twitter
+                </a>
+            </div>
+        </section>
+
+        <div class="featured-pub">
+            <h2>Latest Publications</h2>
+            
+            <div id="bibtex_display"></div>
+
+            <bibtex src="citations.bib"></bibtex>
+
+            <div class="bibtex_template" style="display:none;">
+                <div class="if author">
+                    <strong><span class="title"></span></strong><br>
+                    <span class="author"></span><br>
+                    <em><span class="journal"></span></em>, <span class="year"></span>
+                </div>
+            </div>
+            
+            <div class="bibtex_structure">
+                <div class="group year" extra="DESC number">
+                    <h3 class="title"></h3>
+                    <div class="templates"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Andrew G. Duncan</p>
+    </footer>
+</body>
+</html>

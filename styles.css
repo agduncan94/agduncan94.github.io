@@ -1,0 +1,235 @@
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #3498db;
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --light-gray: #f4f4f4;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    background: var(--primary-color);
+    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+header {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+/* Style the year headers (e.g., "2026", "2025") */
+.bibtex_structure {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 40px 0 15px 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Target the display div specifically on the homepage */
+.featured-pub #bibtex_display > div {
+    display: none; /* Hide all papers by default */
+}
+
+.featured-pub #bibtex_display > div:first-child {
+    display: block; /* Only show the first (most recent) paper */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #3498db;
+    border-radius: 4px;
+}
+
+.preprint {
+    background-color: #f39c12; /* bioRxiv Orange */
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.first_author {
+    background-color: #27ae60; /* Green for first author papers */
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bio-image {
+    float: left;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+/* Container to align them in a row */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* The Button Style */
+.btn-academic {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0; /* Subtle border like your image */
+    border-radius: 4px;
+    color: #555; /* Neutral text */
+    text-decoration: none;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    background-color: white;
+}
+
+/* Icon spacing */
+.btn-academic i {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+/* Hover State: Uses your theme's blue/primary color */
+.btn-academic:hover {
+    border-color: #3498db; /* Your accent blue */
+    color: #3498db;
+    background-color: #f7fbfe; /* Very light blue tint */
+    transform: translateY(-1px); /* Subtle lift */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+h1 { color: var(--primary-color); margin-bottom: 0.2em; }
+.subtitle { font-size: 1.2rem; color: #666; margin-top: 0; }
+
+main { padding: 40px 0; }
+
+.project, .pub-list li {
+    margin-bottom: 30px;
+}
+
+.pub-list { list-style: none; padding: 0; }
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #888;
+    border-top: 1px solid var(--light-gray);
+}
+
+@media (max-width: 600px) {
+    .nav-links { justify-content: center; }
+}
+
+/* CV Specific Header */
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* CV Sections */
+.cv-section {
+    margin-bottom: 50px;
+}
+
+.cv-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+/* Timeline Item Layout */
+.cv-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cv-date {
+    flex: 0 0 150px; /* Width of the date column */
+    font-weight: 600;
+    color: #7f8c8d;
+    font-family: monospace; /* Matches your "pretty buttons" vibe */
+}
+
+.cv-content {
+    flex: 1;
+}
+
+/* Simple List Style (for Awards) */
+.cv-list {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #fafafa;
+}
+
+.cv-list-date {
+    color: #7f8c8d;
+    font-family: monospace;
+}
+
+/* Responsive adjustments for phones */
+@media (max-width: 600px) {
+    .cv-item {
+        flex-direction: column;
+    }
+    .cv-date {
+        margin-bottom: 5px;
+    }
+    .cv-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}

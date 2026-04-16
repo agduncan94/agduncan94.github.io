@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Andrew G. Duncan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Bio</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1>Research</h1>
+        
+        <div class="project">
+            <h3>Phylogenetic augmentation for supervised learning</h3>
+            <p>
+                Homologous DNA sequences contain conserved regulatory information and can be used to augment training data for deep learning
+                 models. I developed a data augmentation technique for improving the performance of deep learning models trained on genomic
+                  sequences using homologous sequences from multi-species genome alignments.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/agduncan94/phylogenetic_augmentation_paper" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://academic.oup.com/bioinformatics/article/40/4/btae190/7642397" target="_blank" class="btn-academic">
+                    <i class="fa-solid fa-book"></i> Paper
+                </a>
+                <a href="https://zenodo.org/records/10463493" target="_blank" class="btn-academic">
+                    <i class="ai ai-zenodo"></i> Data
+                </a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Generative enhancer models (EnhancAR)</h3>
+            <p>
+                We developed a model that generates enhancer sequences given a set of homologous enhancer sequences.
+                By prompting the model with enhancer sequences from different species, we can generate a diverse set
+                of novel enhancer sequences that are predicted to have similar regulatory functions. We use this model
+                to design synthetic enhancers with desired regulatory functions, and also to shorten enhancers while
+                preserving their predicted regulatory activity.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/microsoft/enhancAR" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://www.biorxiv.org/content/10.64898/2026.04.13.718170v1" target="_blank" class="btn-academic">
+                    <i class="fa-solid fa-book"></i> Paper
+                </a>
+                <a href="https://zenodo.org/records/19052620" target="_blank" class="btn-academic">
+                    <i class="ai ai-zenodo"></i> Data
+                </a>
+                <a href="https://huggingface.co/aduncan94/EnhancAR" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-hugging-face"></i> EnhancAR Model
+                </a>
+                <a href="https://huggingface.co/aduncan94/EnhancAR-Sorted" target="_blank" class="btn-academic">
+                    <i class="fa-brands fa-hugging-face"></i> EnhancAR-Sorted Model
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="project">
+            <h3>Deciphering the cis-regulatory code in mouse embryonic stem cells</h3>
+            <p>
+                Mouse embryonic stem cells (ESC) represent a model system for studying the cis-regulatory code.
+                By training supervised and unsupervised deep learning models on mouse ESCs, we can understand how 
+                regulatory information is encoded into the genome.
+            </p>
+        </div>
+
+    </main>
+        <footer>
+        <p>&copy; 2026 Andrew G. Duncan</p>
+    </footer>
+</body>
+</html>
