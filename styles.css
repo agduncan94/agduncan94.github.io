@@ -93,8 +93,8 @@ header {
 .bio-image {
     float: left;
     margin-right: 20px;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     overflow: hidden;
     border-radius: 50%;
     object-fit: scale-down;
